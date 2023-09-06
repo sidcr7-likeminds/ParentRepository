@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "ParentRepository"
 include ':app'
+include ':mylibrary'
+project(':mylibrary').projectDir = new File(rootDir, 'TestingLibrary/mylibrary/')
